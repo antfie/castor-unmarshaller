@@ -110,11 +110,7 @@ public class HelloWorldController {
         String mappingString = "<?xml version=\"1.0\"?>";
         mappingString += "<!DOCTYPE mapping PUBLIC \"-//EXOLAB/Castor Mapping DTD Version 1.0//EN\"\n";
         mappingString += "                          \"http://castor.org/mapping.dtd\">";
-        mappingString += "<mapping>";
-        mappingString += "<class ";
-        mappingString += "name=\"io.veracode.asc.bbaukema.castordeserialization.Allowed\">";
-        mappingString += "<map-to xml=\"io.veracode.asc.bbaukema.castordeserialization.Allowed\"/>";
-        mappingString += "</class></mapping>";
+        mappingString += "<mapping></mapping>";
         Mapping mapping = new Mapping(new ClassLoader() {
             private int maxInstantiations = 10;
 
